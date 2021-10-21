@@ -2,7 +2,7 @@ import React from "react"
 
 export const HardCodedCheeseN: React.FC = () => {
   return (
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+      <svg version="1.1" xmlns="http://www.w3.org/330/svg" x="0px" y="0px"
            viewBox="0 0 330 330">
     <rect width="100%" height="100%" fill="#F96A53" />
         <polygon points="40,259 277,259 277,148 40,174" fill="#E2B04D" stroke="#E2B04D" strokeWidth="20" strokeLinejoin="round" />

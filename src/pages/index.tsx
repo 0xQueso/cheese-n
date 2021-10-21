@@ -39,17 +39,14 @@ export default function Home() {
         </Text>
         </Box>
 
-        <Flex justifyContent="center" mt={-4}>
+        <Flex justifyContent="center" >
+          <Box width={500}>
           <HardCodedCheeseN/>
+          </Box>
         </Flex>
-
-
-
         <Text fontSize={["1rem", "1.2rem"]} color="whiteAlpha.700" mt={3}>
           Select one of your Ns to get started
         </Text>
-
-
 
         <Box textAlign="center" my={8}>
           {isConnected ? (
